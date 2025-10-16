@@ -1,4 +1,4 @@
- **************************************************************************************      
+**************************************************************************************      
   #                  online Electronic-shopping Website
 ***************************************************************************************
 ## Project Year: 2025
@@ -24,7 +24,10 @@
 
 ## Technologies Used:
 -HTML 
-Features :
-1.
+## Features :
+1.Header and footer on all pages
+2.Navigation links between all pages
+3.Product images
+4.Form for login and checkout 
 
 
