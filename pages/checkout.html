@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head><title>Checkout</title>
+</head>
+<body>
+<form>
+    <h1><img src="./../images/checkout.png" height="40px" width="30px" />Checkout</h1><hr/>
+
+    <div>
+      <h2><img src="./../images/one.png" height="40px" width="30px" /> Shipping address</h2><br/>
+        *indicates required field<br/><br/><br/>
+        <label for="inputfirstname">First Name*</label>
+        <input type="text" id="inputfirstname" placeholder="Enter First name"/>
+
+        <label for="inputlastname">Last Name*</label>
+        <input type="text" id="inputlastname" placeholder="Enter Last name"/>
+        <br/><br/><br/>
+         <label for="inputaddress">Address*</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="inputaddress" placeholder="Enter Address"/>
+        
+         <label for="inputzip">Zip Code*</label>&nbsp;&nbsp;
+        <input type="text" id="inputzip"/ placeholder="Zipcode"><br/><br/><br/>
+
+         <label for="inputcity">City*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="inputcity" placeholder="City"/>&nbsp;&nbsp;
+        <label for="inputmobile">Mobile No*</label>&nbsp;&nbsp;
+        <input type="text" id="inputmobile" placeholder="Enter mobile no"><br/><br/>
+         <label for="inputstate">State*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select>
+            <option>Maharashtra</option>
+            <option>Gujrat</option>
+            <option>Madhya Pradesh</option>
+            <option>Uttar Pradesh</option>
+            <option>Bihar</option>
+            <option>Panjab</option>
+            <option>Rajastan</option>
+            <option>Karnataka</option>
+        </select>&nbsp;&nbsp;&nbsp;
+         <label for="inputemail">Email Address</label>&nbsp;&nbsp;
+        <input type="text" id="inputemail" placeholder="Enter Email address"><br/><br/>
+        <br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+       <input type="button" value="Next step>>"/>
+    </div><hr/>     
+    <div>
+       <h2><img src="./../images/two.png" height="40px" width="30px" /> Select Payment Method</h2>
+        
+        <br/>
+        <input type="radio" id="inputcash" name="payment"/>
+        <label for="inputcash"><img src="./../images/cash.png" height="20px" width="30px" />Cash On Delivery</label><br/><br/>
+        <input type="radio" id="inputonline" name="payment"/>
+        <label for="inputonline"><img src="./../images/pay.png" height="20px" width="30px" />Pay Online</label><br/><br/>
+        <input type="radio" id="inputlater" name="payment"/>
+        <label for="inputlater"><img src="./../images/paylater.png" height="20px" width="30px" />Pay Later</label><br/><br/>
+        <h4>Reselling the order?</h4>
+         <select>
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Next step>>"/>
+    </div><hr/>
+    <div>
+        <h2><img src="./../images/three.png" height="40px" width="30px" />Review And Place Order</h2>
+         <label for="inputdatetime"><h4>Expected Date And Time Of Delivery</h4></label>
+    <input type="date" id="inputdatetime"/>
+    <input type="time" id="inputdatetime"/>
+    <select id="inputdatetime">
+      <option>AM</option>
+      <option>PM</option>  
+   </select>
+   <br/>
+    
+    </div>
+    <div>
+        <h3>Order summary</h3>
+         <table border="1" >
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>$25.00</td>
+        </tr>
+        <tr>
+          <td>Item 2</td>
+          <td>$15.00</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>$5.00</td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <th>$45.00</th>
+        </tr>
+      </table>
+    </div>
+</form><br/><br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Place Order"/>
+</body>
+</html>
