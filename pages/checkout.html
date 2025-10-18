@@ -3,43 +3,39 @@
 <head><title>Checkout</title>
 </head>
 <body>
-  <header>
-    
-    <nav>
-        <b>Greenleaf Online store</b>
-        <a href="../index.html">Home</a> 
-        <a href="./product.html">Products</a> 
-        <a href="./categories.html">Categories</a> 
-        <a href="./cart.html">Cart</a> 
-        <a href="./account.html">Account</a> 
-        <a href="./about.html">About</a> 
-        <a href="./contact.html">Contact</a> 
-
-    </nav>
-</header> <hr/>  
+   <nav>
+    <b>Greenleaf Online Store</b>
+        <a href="./../index.html" >Home</a> |
+        <a href="./../pages/products.html" >Products</a> |
+        <a href="./../pages/categories.html" >Categories</a> |
+        <a href="./../pages/checkout.html" >Checkout</a> |
+        <a href="./../pages/cart.html" >Cart</a> |
+        <a href="./../pages/account.html">Account</a> |
+        <a href="./../pages/about.html" >About</a> |
+        <a href="./../pages/contact.html" >Contact</a> |
+    </nav><hr/>
 <form>
-
     <h1><img src="./../images/checkout.png" height="40px" width="30px" />Checkout</h1><hr/>
-
+  
     <div>
-      <h2><img src="./../images/one.png" height="40px" width="30px" /> Shipping address</h2><br/>
+      <h2 ><img src="./../images/one.png" height="40px" width="30px" /> Shipping address</h2><br/>
         *indicates required field<br/><br/><br/>
         <label for="inputfirstname">First Name*</label>
-        <input type="text" id="inputfirstname" placeholder="Enter First name"/>
+        <input type="text" id="inputfirstname" placeholder="Enter First name" required/>
 
         <label for="inputlastname">Last Name*</label>
-        <input type="text" id="inputlastname" placeholder="Enter Last name"/>
+        <input type="text" id="inputlastname" placeholder="Enter Last name"required/>
         <br/><br/><br/>
          <label for="inputaddress">Address*</label>&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" id="inputaddress" placeholder="Enter Address"/>
+        <input type="text" id="inputaddress" placeholder="Enter Address" required/>
         
          <label for="inputzip">Zip Code*</label>&nbsp;&nbsp;
-        <input type="text" id="inputzip"/ placeholder="Zipcode"><br/><br/><br/>
+        <input type="text" id="inputzip"/ placeholder="Zipcode" required><br/><br/><br/>
 
          <label for="inputcity">City*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" id="inputcity" placeholder="City"/>&nbsp;&nbsp;
+        <input type="text" id="inputcity" placeholder="City" required/>&nbsp;&nbsp;
         <label for="inputmobile">Mobile No*</label>&nbsp;&nbsp;
-        <input type="text" id="inputmobile" placeholder="Enter mobile no"><br/><br/>
+        <input type="text" id="inputmobile" placeholder="Enter mobile no" required><br/><br/>
          <label for="inputstate">State*</label>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <select>
@@ -56,7 +52,7 @@
         <input type="text" id="inputemail" placeholder="Enter Email address"><br/><br/>
         <br/>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
-       <input type="button" value="Next step>>"/>
+       
     </div><hr/>     
     <div>
        <h2><img src="./../images/two.png" height="40px" width="30px" /> Select Payment Method</h2>
@@ -73,7 +69,7 @@
             <option>Yes</option>
             <option>No</option>
         </select>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Next step>>"/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </div><hr/>
     <div>
         <h2><img src="./../images/three.png" height="40px" width="30px" />Review And Place Order</h2>
@@ -89,30 +85,30 @@
     </div>
     <div>
         <h3>Order summary</h3>
-         <table border="1" >
-        <tr>
+         <table border="1" cellpadding="10" cellspacing="5" width="400px">
+        <tr height="50px" >
           <th>Item</th>
           <th>Price</th>
         </tr>
-        <tr>
+        <tr height="50px">
           <td>Item 1</td>
           <td>$25.00</td>
         </tr>
-        <tr>
+        <tr height="50px">
           <td>Item 2</td>
           <td>$15.00</td>
         </tr>
-        <tr>
+        <tr height="50px">
           <td>Shipping</td>
           <td>$5.00</td>
         </tr>
-        <tr>
+        <tr height="50px">
           <th>Total</th>
           <th>$45.00</th>
         </tr>
       </table>
     </div>
 </form><br/><br/>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Place Order"/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Place Order" />
 </body>
 </html>
